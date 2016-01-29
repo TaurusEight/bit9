@@ -1,5 +1,5 @@
 
-Time-stamp: <2016-01-29 01:57:35 daniel>
+Time-stamp: <2016-01-29 16:16:34 daniel>
 
 
 //
@@ -17,6 +17,8 @@ Tools Required:
   bash     - in /bin/bash
   g++      - in /usr/bin  (tested with version 5.21)
   GNU Make - (tested with version 4.1)
+  valgrind - in /usr/bin (tested with version 3.11.0)
+
 
 Build Instructions:
 
@@ -24,4 +26,5 @@ Build Instructions:
   'make clean'  -  deletes objects files
   'make nuke'   -  deletes everything built
 
-  './sample'    -  run the application
+  'make run'    - run the project within valgrind
+  './exercise'  -  run the application
