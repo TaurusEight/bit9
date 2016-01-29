@@ -1,0 +1,27 @@
+
+Time-stamp: <2016-01-29 01:57:35 daniel>
+
+
+//
+// README:  Very basic documentation for building this sample application.
+//
+
+
+Auther:
+
+  Daniel Mendyke [daniel@mendyke.com]
+
+
+Tools Required:
+
+  bash     - in /bin/bash
+  g++      - in /usr/bin  (tested with version 5.21)
+  GNU Make - (tested with version 4.1)
+
+Build Instructions:
+
+  'make'        -  builds the binary 'sample'
+  'make clean'  -  deletes objects files
+  'make nuke'   -  deletes everything built
+
+  './sample'    -  run the application
